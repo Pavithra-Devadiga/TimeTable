@@ -1,23 +1,54 @@
-📅 Timetable Website
-📌 Project Description
+# 📅 Timetable Website
 
-The Timetable Website is a simple web-based project designed to display an academic timetable in a clear and organized format. It helps students easily view their daily and weekly class schedules without confusion. The project focuses on clean layout, readability, and basic web development concepts.
+A simple and responsive web-based timetable designed to display academic schedules in a clear and organized format.
 
-🎯 Objectives
+---
 
--To represent a class timetable digitally
--To improve clarity and accessibility of schedules
--To practice basic web development skills
--To create a user-friendly academic utility website
+## 📌 Project Description
 
-🛠️ Technologies Used
+The Timetable Website is a basic web development project that presents an academic timetable in a structured and user-friendly manner. It allows students to easily view their daily and weekly class schedules while focusing on clean layout, readability, and simplicity.
 
-HTML – Structure of the timetable
-CSS – Styling and layout design
+---
 
-✨ Features
+## 🎯 Objectives
 
--Displays timetable with days and time slots
--Simple and easy-to-understand layout
--Clean and responsive design
--Lightweight and fast loading
+- Represent a class timetable digitally  
+- Improve clarity and accessibility of schedules  
+- Practice basic web development skills  
+- Create a user-friendly academic utility website  
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML – Structure of the timetable  
+- CSS – Styling and layout design  
+
+---
+
+## ✨ Features
+
+- Displays timetable with days and time slots  
+- Simple and easy-to-understand layout  
+- Clean and responsive design  
+- Lightweight and fast loading  
+
+---
+
+## 🚀 Getting Started
+
+1. Clone or download the repository  
+2. Open the `index.html` file in any web browser  
+3. View the timetable  
+
+---
+
+## 👩‍💻 Author
+
+Pavithra Devadiga
+
+---
+
+## 📄 License
+
+This project is created for educational purposes.
