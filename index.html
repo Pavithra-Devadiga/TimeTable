@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time_Table</title>
+</head>
+<body>
+    <h1>University of Visvesvaraya College of Engineering(UVCE)</h2>
+    <h2>Department of Computer Science and Engineering</h4>
+    <h2>Class Time Table</h4>
+    <style>
+        h1,h2{
+            text-align: center;
+        }
+    </style>
+   <hr>
+   <style>
+    hr{
+        border-width: 0.7mm;
+        border-color:  black;
+       }
+    </style>
+
+
+   <div class="information">
+    <span>Semester:4<sup>th</sup> Sem ISE, B.Tech</span><span>W.E.F:01/01/2026</span></div>
+    <style>
+        .information{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 22px;
+            margin: 10px 0;
+        }
+    </style>
+        
+    <table>
+        <tr>
+            <th>Day Time</th>
+            <th>8:00 to 8:50 AM</th>
+            <th>8:50 to 9:40 AM</th>
+            <th>9:40 to 10:30 AM</th>
+            <th class="interval" rowspan="7">Interval 10:30 AM to 10:50 AM</th>
+            <th>10:50 to 11:40 AM</th>
+            <th>11:40 to 12:30 PM</th>
+            <th>12:30 to 01:20 PM</th> 
+            <th class="lunch" rowspan="7">Lunh Break 1:20 PM to 2:30 PM</th>        
+            <th>2:30 to 3:20 PM</th>
+            <th>3:20 to 4:10 PM</th>
+            <th>4:10 to 5:00 PM</th>
+             <th>5:00 to 5:50 PM</th>
+        </tr>
+        
+        <tr>
+            <th>Monday</th>
+            <td></td>
+            <td colspan="2">MPMC</td>
+            <td>UHV</td>
+            <td colspan="2">DAA</td>
+            <td colspan="3">MP Lab B2(Lab 5)
+                <br>
+                 WD Lab B1
+                 <br>
+                  DAA Lab B3(Lab 1)
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th>Tuesday</th>
+            <td></td>
+            <td colspan="2">Biology</td>               
+            <td colspan="2">OS</td>
+            <td colspan="1">MPMC</td>
+            <td colspan="1">MPMC</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th>Wednesday</th>
+            <td></td>
+            <td colspan="2">Bridge Mathematics</td>
+            <td colspan="3">Unix Lab B2(Lab 4)
+                <br>
+                DAA Lab B1(Lab 3)
+                <br>
+                WD Lab B3
+            </td>
+            <td colspan="2">Engg.Maths-IV</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th>Thursday</th>
+            <td colspan="3">MP Lab B3(Lab 5)
+                <br>
+                WD Lab B2
+            </td>
+            <td colspan="2">DAA</td>
+            <td colspan="1">CIPE</td>
+            <td colspan="2">OS</td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+        </tr>
+
+        <tr>
+            <th>Friday</th>
+            <td colspan="3">Unix Lab B1(Lab 3)</td>
+            <td colspan="2">Engg.Maths-IV</td>
+            <td colspan="1">CIPE</td>
+            <td colspan="3">DAA Lab B2(Lab 1)
+                <br>
+              Unix Lab B3(Lab 2)
+                <br>  
+                MP Lab B1(Lab 5)
+            </td>
+            <td colspan="1"></td>
+        </tr>
+
+        <tr>
+            <th>Saturday</th>
+            <td colspan="3"></td>
+            <td colspan="3"></td>
+            <td colspan="3"></td>
+            <td colspan="4"></td>
+        
+        </tr>
+
+        <tr>
+            <th colspan="7">
+                MPMC : Microprocessor and Microcontroller 
+                <br>
+                OS : Operating Systems
+                <br>
+                UHV : Universal Human Values
+            </th>
+            <th colspan="7">DAA : Design and Analysis of Algorithms
+                <br>
+                WD : Web Developement
+                <br>
+                CIPE : Constitution of India and Professional Ethics
+            </th>
+        </tr>
+    </table>
+
+<style>
+    .lunch{
+        writing-mode: sideways-lr;
+        text-align: center;
+    }
+    .interval{
+        writing-mode: sideways-lr;
+        text-align: center;
+
+    }
+    th,td{
+        border: 3px solid black;
+        padding: 8px;
+    }
+    table{
+        width: 99vw;
+        height: 70vh;
+        border-collapse: collapse;
+        text-align: center;
+        font-size: 22px;
+    }
+</style>
+</body>
+</html>
